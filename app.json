@@ -1,11 +1,12 @@
 {
   "expo": {
-    "name": "WellTrack",
-    "slug": "welltrack-app",
+    "name": "NudgeTrack",
+    "slug": "nudgetrack-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./src/assets/icon.png",
     "userInterfaceStyle": "automatic",
+    "scheme": "nudgetrack",
     "splash": {
       "image": "./src/assets/splash.png",
       "resizeMode": "contain",
@@ -13,14 +14,26 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.welltrack.app",
+      "bundleIdentifier": "com.nudgetrack.app",
       "infoPlist": {
         "UIBackgroundModes": ["background-processing"]
       }
     },
     "android": {
-      "package": "com.welltrack.app",
-      "permissions": ["RECEIVE_BOOT_COMPLETED", "VIBRATE", "WAKE_LOCK"]
+      "package": "com.nudgetrack.app",
+      "permissions": ["RECEIVE_BOOT_COMPLETED", "VIBRATE", "WAKE_LOCK"],
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "nudgetrack"
+            }
+          ],
+          "category": ["BROWSABLE", "DEFAULT"]
+        }
+      ]
     },
     "plugins": [
       [
