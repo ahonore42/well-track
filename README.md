@@ -1,6 +1,6 @@
-# WellTrack
+# NudgeTrack
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/yourusername/welltrack)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/yourusername/nudgetrack)
 [![Platform](https://img.shields.io/badge/platform-iOS%20%7C%20Android-lightgrey.svg)](https://expo.dev/)
 [![React Native](https://img.shields.io/badge/React%20Native-0.80-61DAFB.svg)](https://reactnative.dev/)
 [![Expo](https://img.shields.io/badge/Expo-SDK%2053-000020.svg)](https://expo.dev/)
@@ -8,9 +8,9 @@
 
 > A cross-platform mobile health tracking application that enables medication, sleep, and mood logging through interactive push notifications without requiring users to open the app.
 
-## What is WellTrack?
+## What is NudgeTrack?
 
-WellTrack is a React Native mobile application that solves the friction problem in daily health tracking. Instead of requiring users to open an app and navigate through screens to log their wellness data, WellTrack delivers interactive push notifications that allow users to track medications, sleep quality, and mood with a single tap directly from their notification panel.
+NudgeTrack is a React Native mobile application that solves the friction problem in daily health tracking. Instead of requiring users to open an app and navigate through screens to log their wellness data, NudgeTrack delivers interactive push notifications that allow users to track medications, sleep quality, and mood with a single tap directly from their notification panel.
 
 The application automatically syncs all responses to a cloud database and provides users with a comprehensive dashboard to view their health trends and progress over time.
 
